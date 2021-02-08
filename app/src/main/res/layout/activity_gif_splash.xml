@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GifSplash"
+    android:background="#000000"
+    android:orientation="vertical">
+
+
+
+<pl.droidsonroids.gif.GifImageView
+    android:id="@+id/splash"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/splash"
+    android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powered by"
+        android:textColor="#fefefe"
+        android:textSize="15sp"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tear's"
+        android:textColor="#fefefe"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textStyle="italic"/>
+
+
+
+
+</LinearLayout>
